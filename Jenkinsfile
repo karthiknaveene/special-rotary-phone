@@ -29,10 +29,10 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
-                sh 'sleep 3'
-                sh 'echo "Pretending to deploy..."'
-                // Intentionally fail the build
-                // sh 'exit 1'
+                // sh 'sleep 3'
+                // sh 'echo "Pretending to deploy..."'
+                Intentionally fail the build
+                sh 'exit 1'
             }
         }
         
